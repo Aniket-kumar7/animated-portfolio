@@ -1,0 +1,31 @@
+@import "tailwindcss";
+ #tilt-container{
+  position: relative;
+  perspective: 1500px;
+}
+  #section{
+  position: relative;
+  perspective: 2000px;
+}
+.rotateText{
+  transform-origin: 100% 70%;
+  /* background: red -500px; */
+}
+#tilt-text{
+  /* background:orange; */
+  width: fit-content;
+  /* transform: rotateY(60deg); */
+}
+ @font-face {
+  font-family: myfont1;
+  src: url("./assets/CalSans-Regular.ttf") format("truetype");
+ } @font-face {
+  font-family: myfont2;
+  src: url("./assets/font1.woff2") format("truetype");
+ } @font-face {
+  font-family: myfont3;
+  src: url("./assets/font2.woff2") format("truetype");
+ } @font-face {
+  font-family: myfont4;
+  src: url("./assets/font-3.woff2") format("truetype");
+ }
